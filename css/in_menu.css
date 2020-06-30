@@ -96,23 +96,48 @@ section{
     position: absolute;
     top: 200px;
     left: 25%;
-    background-color: crimson;
+    /* background-color: crimson; */
 }
 section article{
-    width: 40%;
     float: left;
-    background-color: darkblue;
+    /* background-color: rgb(250, 182, 182); */
     margin: 20px;
+}
+section .left{
+    width: 62%;
+}
+section .right{
+    height: 40%;
 }
 section article img{
     width: 100%;
 }
 section article .tit1{
-    background-color: cyan;
+    /* background-color: cyan; */
     width: 100%;
 }
 section article .tit1 h2{
-    /* margin: 12px auto; */
+    border-bottom:1px solid #2b2b2b ;
+}
+.option > p{
+    margin-top: 80px;
+}
+.option select{
+    display: block;
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 20px;
+}
+.box3{
+    /* height: 70px; */
+    /* background-color: aqua; */
+    margin-top: 80px;
+}
+.box3 a{
+    background-color: #444444;
+    color: #f1f1f1;
+    padding: 10px;
+    font-size: 20px;
 }
 
 
