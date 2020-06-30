@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    list-style: none;
+    text-decoration: none;
+    color: #222222;
+    font-family: 'NeoDunggeunmo';
+}
+
+@font-face {
+    font-family: 'NeoDunggeunmo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #ffefef;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 2px 2px 8px #997d7d;
+}
+
+nav {
+    width: 1000px;
+    background-color: #888888;
+    margin: 0 auto;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    /* color: white; */
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #f7b5b5;
+    transition-duration: 0.3s;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f7b5b5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition-duration: 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+main{
+    width: 100%;
+    height: 3000px;
+    position: relative;
+}
+section{
+    width:50%;
+    height: 50%;
+    background-color: blueviolet;
+    position: absolute;
+    top: 5%;
+    left: 500px;
+}
+main section .store{
+    text-align: center;
+    font-size: 40px;
+}
+main section .store h3{
+    width: 20%;
+    height: 10%;
+    border-bottom: 2px solid #222222;
+    margin: 0 auto;
+}
+main section article{
+    width: 20%;
+    height: 15%;
+    background-color: #666666;
+    float: left;
+    margin: 6.5%;
+}
+main section article .box{
+    width: 95%;
+    height: 80%;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+}
+
+
+
+
+
+header img {
+    float: left;
+    width: 150px;
+    height: 40px;
+    padding: 20px;
+}
+
+
+
+
+
+nav ul {
+    width: 130px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    /* background-color: magenta; */
+}
+
+
+
+#loging {
+    width: 260px;
+    float: right;
+    /* background-color: magenta; */
+}
+
+#loging li {
+    float: right;
+    /* background-color: lime; */
+}
+
+#loging a {
+    padding: 5px;
+    margin-left: 20px;
+    /* background-color: lightpink; */
+    font-size: 10px;
+}
+
+#loging a:hover {
+    background-color: #f7b5b5;
+    transition-duration: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: lightpink;
+    text-align: center;
+}
+
+footer .icon {
+    line-height: 100px;
+}
+
+footer .icon a {
+    padding: 10px;
+    font-size: 30px;
+}
+
+footer .icon a i {
+    color: #fc3164;
+}
+
+footer .icon a i:hover {
+    border-bottom: 2px solid #fc3164;
+}
+
+
+
+
+
+
+
+
+
+
+
+#top_btn {
+    width: 50px;
+    height: 40px;
+    background-color: #ffd1d1;
+    text-align: center;
+    position: fixed;
+    top: 600px;
+    right: 0;
+    border-radius: 25%;
+}
